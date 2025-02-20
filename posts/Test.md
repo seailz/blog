@@ -68,7 +68,7 @@ Below is a sample table:
 
 Here is an image:
 
-![Placeholder Image](https://via.placeholder.com/600x300 "Placeholder Title")
+![Placeholder Image](https://placehold.co/600x400 "Placeholder Title")
 
 Check out the [SvelteKit Documentation](https://kit.svelte.dev/docs) for more details.
 
