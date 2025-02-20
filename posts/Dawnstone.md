@@ -5,7 +5,8 @@ date: 2025-02-20
 image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/dawnstone.png
 subtitle: "Over the last year, I've been working with Candor Studios to revolutionize the way we order services. This is a brief overview of the project and the impact it's projected to have on the industry."
 ---
-"For the past year, I've been collaborating with Candor Studios on a groundbreaking initiative—Project Dawnstone. Our goal? To revolutionize how services are ordered, making the process more accessible and seamless. With this platform, we're eliminating Discord’s limitations and unlocking new opportunities for freelancers and clients alike."
+For the past year, I've been collaborating with Candor Studios on a groundbreaking initiative—Project Dawnstone. Our goal? To revolutionize how services are ordered, making the process more accessible and seamless. With this platform, we're getting rid of Discord's UI limitations
+and replacing it with a user-friendly system that provides a new medium for service teams to connect with clients. This is a brief overview of the project and the impact it's projected to have on the industry.
 
 
 ## The Problem
