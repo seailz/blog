@@ -19,13 +19,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vitae enim no
 
 #### Code Example (JavaScript)
 
-\`\`\`js
+```js
 // Sample JavaScript code block
 function greet(name) {
   console.log("Hello, " + name + "!");
 }
 greet("World");
-\`\`\`
+```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel tortor a neque eleifend tristique. Aliquam erat volutpat.
 
@@ -90,7 +90,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at elit vitae nis
 
 #### Code Example (Python)
 
-\`\`\`python
+```python
 # Sample Python code block
 def factorial(n):
     if n == 0:
@@ -98,7 +98,7 @@ def factorial(n):
     return n * factorial(n-1)
 
 print(factorial(5))
-\`\`\`
+```
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sollicitudin quam at libero laoreet, sit amet hendrerit turpis laoreet. Quisque tincidunt, ex ac bibendum auctor, nisi ligula egestas orci, a efficitur nibh nisi in mauris.
 
@@ -119,3 +119,5 @@ This test blog post covers various markdown elements including headings, lists, 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis lacus nec ipsum vestibulum pulvinar. Suspendisse ac urna non lorem efficitur dapibus.
 
 *End of Test Post*
+**End of Test Post**
+__End of Test Post__
