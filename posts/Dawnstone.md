@@ -45,7 +45,7 @@ from the platform appear as familiar as possible, and the experience is seamless
 Freelancers have their own area on the Candor Hub platform where they can manage their orders, send quotes, and communicate with clients. This area is designed to be user-friendly
 while, as always, remaining fully synced with Discord.
 
-[![Candor Hub Freelancer Area](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/freealncerarea.png)](https://candorstudios.net)
+[![Candor Hub Freelancer Area](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/freelancerarea.png)](https://candorstudios.net)
 
 ## Testing & Feedback
 We've been testing Project Dawnstone since December 2024, and the feedback has been overwhelmingly positive. Users have praised the platform for its ease of use and intuitive design,
