@@ -2,7 +2,7 @@
 title: Working with Candor Studios to revolutionize the way we order services
 slug: candorstudios-dawnstone
 date: 2025-02-20
-image: https://githubusercontent.com/seailz/blog/images/dawnstone/dawnstone.png
+image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/dawnstone.png
 subtitle: "Over the last year, I've been working with Candor Studios to revolutionize the way we order services. This is a brief overview of the project and the impact it's projected to have on the industry."
 ---
 "For the past year, I've been collaborating with Candor Studios on a groundbreaking initiative—Project Dawnstone. Our goal? To revolutionize how services are ordered, making the process more accessible and seamless. With this platform, we're eliminating Discord’s limitations and unlocking new opportunities for freelancers and clients alike."
@@ -32,19 +32,19 @@ The journey starts on the Candor Studios website, where clients can order a spec
 similar to how it's worked on Discord. This information is then used to create a Discord channel representing the order, and simultaneously, an order is created on the 
 Candor Hub platform.
 
-[![Candor Hub](https://githubusercontent.com/seailz/blog/images/dawnstone/order-page.png)](https://candorstudios.net)
+[![Candor Hub](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/order-page.png)](https://candorstudios.net)
 
 From there, it's sent off to freelancers as normal who can send in their quotes. The client can then choose the freelancer they want to work with, and the process continues as normal.
 Messages are fully synced between the Candor Hub platform and Discord, so there's no need to worry about missing anything. We use Discord Webhooks to make the messages
 from the platform appear as familiar as possible, and the experience is seamless.
 
-[![Candor Hub Webhook Message](https://githubusercontent.com/seailz/blog/images/dawnstone/webhook-message.png)](https://candorstudios.net)
+[![Candor Hub Webhook Message](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/webhook-message.png)](https://candorstudios.net)
 
 ### Freelancer Area
 Freelancers have their own area on the Candor Hub platform where they can manage their orders, send quotes, and communicate with clients. This area is designed to be user-friendly
 while, as always, remaining fully synced with Discord.
 
-[![Candor Hub Freelancer Area](https://githubusercontent.com/seailz/blog/images/dawnstone/freealncer-area.png)](https://candorstudios.net)
+[![Candor Hub Freelancer Area](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/freealncerarea.png)](https://candorstudios.net)
 
 ## Testing & Feedback
 We've been testing Project Dawnstone since December 2024, and the feedback has been overwhelmingly positive. Users have praised the platform for its ease of use and intuitive design,
@@ -77,4 +77,4 @@ and I'm proud to have been a part of it!
 
 If you'd like to contact me about this project or any other work, feel free to reach out to me on [my contact page](https://slz.lol/contact).
 
-[![Candor Hub](https://githubusercontent.com/seailz/blog/images/dawnstone/welcome.png)](https://candorstudios.net)
+[![Candor Hub](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/welcome.png)](https://candorstudios.net)
