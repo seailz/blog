@@ -1,0 +1,2 @@
+# blog
+https://slz.lol
