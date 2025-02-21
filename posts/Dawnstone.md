@@ -64,7 +64,7 @@ This was a challenge to implement, but we were able to overcome it by creating a
 Discord bot instances to communicate with each other in real-time. This was based off Google Cloud's Pub/Sub system, and it's been working great so far
 with hundreds of thousands of messages sent between instances over the last year.
 
-More details on the vast amount of technologies to implement this project will be available in a future blog post, stay tuned!
+More details on the vast amount of technologies to implement this project can be found in a blog post I wrote [here](https://slz.lol/blog/candorstudios-dawnstone-tech).
 
 ## The Impact
 The impact of Project Dawnstone is projected to be huge—we're setting a new industry standard. By bringing service teams into the traditional e-commerce and freelancing space, we're opening up new opportunities for growth
@@ -77,5 +77,7 @@ use it for your own freelancing needs, it'll be available soon at [Candor Studio
 and I'm proud to have been a part of it!
 
 If you'd like to contact me about this project or any other work, feel free to reach out to me on [my contact page](https://slz.lol/contact).
+
+If you're interested in the technical details of the project, I've written a blog post about the complex technologies used to implement it [here](https://slz.lol/blog/candorstudios-dawnstone-tech).
 
 ![Candor Hub](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/welcome.png)
