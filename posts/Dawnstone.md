@@ -33,19 +33,19 @@ The journey starts on the Candor Studios website, where clients can order a spec
 similar to how it's worked on Discord. This information is then used to create a Discord channel representing the order, and simultaneously, an order is created on the 
 Candor Hub platform.
 
-[![Candor Hub](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/order-page.png)]
+![Candor Hub](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/order-page.png)
 
 From there, it's sent off to freelancers as normal who can send in their quotes. The client can then choose the freelancer they want to work with, and the process continues as normal.
 Messages are fully synced between the Candor Hub platform and Discord, so there's no need to worry about missing anything. We use Discord Webhooks to make the messages
 from the platform appear as familiar as possible, and the experience is seamless.
 
-[![Candor Hub Webhook Message](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/webhook-message.png)]
+![Candor Hub Webhook Message](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/webhook-message.png)
 
 ### Freelancer Area
 Freelancers have their own area on the Candor Hub platform where they can manage their orders, send quotes, and communicate with clients. This area is designed to be user-friendly
 while, as always, remaining fully synced with Discord.
 
-[![Candor Hub Freelancer Area](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/freelancerarea.png)]
+![Candor Hub Freelancer Area](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/freelancerarea.png)
 
 ## Testing & Feedback
 We've been testing Project Dawnstone since December 2024, and the feedback has been overwhelmingly positive. Users have praised the platform for its ease of use and intuitive design,
@@ -78,4 +78,4 @@ and I'm proud to have been a part of it!
 
 If you'd like to contact me about this project or any other work, feel free to reach out to me on [my contact page](https://slz.lol/contact).
 
-[![Candor Hub](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/welcome.png)]
+![Candor Hub](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/welcome.png)
