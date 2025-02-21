@@ -142,7 +142,7 @@ Running on Cloud Run has been a new experience for me, and it did take a little 
 
 ## Frontend
 The frontend of the platform was created using [SvelteKit](https://kit.svelte.dev), an amazing framework that has been my go-to for a while now, primarily for the developer experience. The project involved
-building a new promotional page for Candor, as well as the platform itself. We designed everything using Figma, basing off [Material Design](https://m3.material.io) and Candor's existing branding (which was recently updated by an external agency).\
+building a new promotional page for Candor, as well as the platform itself. We designed everything using Figma, basing off [Material Design](https://m3.material.io) and Candor's existing branding (which was recently updated by an external agency).
 
 The frontend is hosted using Firebase Hosting, which has been a breeze to work with. It's fast, reliable, and easy to deploy to, making it the perfect choice for this project.
 Overall, the frontend has been a joy to work on, and I'm really happy with how it turned out.
