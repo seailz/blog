@@ -134,7 +134,7 @@ CandorBot used to run on a single VPS, but as the platform grew, it became clear
 CandorBot now runs comfortably on an e2-medium instance, which provides just the right amount of resources for the bot to run smoothly without being too expensive.
 
 ### Candor Hub
-Candor Hub has its own backend which we decided to run on [Google Cloud Run](https://cloud.google.com/run?hl=en) for its ease of use and scalability. It's a simple Java application that handles all the requests from the frontend and communicates with Firestore and Instcom. It's also built in Java, with a combination of Spring and a custom framework I built for this project.
+Candor Hub has its own backend which we decided to run on [Google Cloud Run](https://cloud.google.com/run?hl=en) for its ease of use and scalability. It's also built in Java, with a combination of Spring and a custom framework I built for this project.
 
 Running on Cloud Run has been a new experience for me, and it did take a little while to get working correctly. But once it was up and running, it's been smooth sailing. We decided to run with a minimum of 1 instance to remove cold starts, and we can always scale up if needed. This is relatively expensive, but Candor decided that is was worth the cost.
 
