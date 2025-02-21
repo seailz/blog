@@ -116,11 +116,11 @@ This message would be sent from *candorhub-1* to *candorbot-1*, requesting the p
 Part of the change to Candor Studios' new infrastructure meant we had to do huge amounts of data migration from their existing databases and files to Firestore. This was a complex process that required careful planning and execution to ensure that no data was lost or corrupted in the process.
 
 Essentially, all new objects are created in Firestore. Then, if an object is found in the old system and retrieved at any point, it's migrated to Firestore. When retrieving an object, we check both systems unless we know it's only in Firestore (we have a list of these objects).
-It's fail complex, but does the job well. We've managed to migrate around 10,000 objects using it!
+It's fairly complex, but does the job well. We've managed to migrate around 10,000 objects using it!
 
 ### Caching
 Caching is also a big part of the move. Much of the existing infrastructure didn't care for caches as data was quick and free to access. Now, we have to be careful with how we cache data, as Firestore costs can add up quickly if we're not careful. We've implemented a caching system that's been working well so far, but it's something we're keeping an eye on as we scale up.
-This caching system was relatively complex, as well, but only because it uses a lot of Java reflection to make it nice and flexible.
+This caching system was relatively complex as well, but only because it uses a lot of Java reflection to make it nice and flexible.
 
 ![Candor Hub Firestore Usage](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstonetech/cachingmetrics.png)
 
@@ -129,12 +129,12 @@ This caching system was relatively complex, as well, but only because it uses a 
 ### CandorBot
 CandorBot, an existing and essential part of Candor Studios' infrastructure, is a Discord bot that handles all the communication between the Candor Hub platform and Discord. Part of this implementation was migrating CandorBot to [Google Cloud Compute Engine](https://cloud.google.com/products/compute?hl=en) instances.
 
-CandorBot used to run on a single VPS, but as the platform grew, it became clear that this wasn't going to be sustainable in the long term. The VPS had regular downtime and it was causing a large amount of stress for the team. By moving CandorBot to Google Cloud, we were able to take advantage of the incredible reliability, and since moving, we've had next to no downtime whatsoever.'
+CandorBot used to run on a single VPS, but as the platform grew, it became clear that this wasn't going to be sustainable in the long term. The VPS had regular downtime and it was causing a large amount of stress for the team. By moving CandorBot to Google Cloud, we were able to take advantage of the incredible reliability, and since moving, we've had next to no downtime whatsoever.
 
-CandorBot now runs comfortably on an e2-medium instance, which provides just the right amount of resources for the bot to run smoothly without breaking the bank.
+CandorBot now runs comfortably on an e2-medium instance, which provides just the right amount of resources for the bot to run smoothly without being too expensive.
 
 ### Candor Hub
-Candor Hub has it's own backend which we decided to run on [Google Cloud Run](https://cloud.google.com/run?hl=en) for its ease of use and scalability. It's a simple Java application that handles all the requests from the frontend and communicates with Firestore and Instcom. It's also built in Java, with a combination of Spring and a custom framework I built for this project.
+Candor Hub has its own backend which we decided to run on [Google Cloud Run](https://cloud.google.com/run?hl=en) for its ease of use and scalability. It's a simple Java application that handles all the requests from the frontend and communicates with Firestore and Instcom. It's also built in Java, with a combination of Spring and a custom framework I built for this project.
 
 Running on Cloud Run has been a new experience for me, and it did take a little while to get working correctly. But once it was up and running, it's been smooth sailing. We decided to run with a minimum of 1 instance to remove cold starts, and we can always scale up if needed. This is relatively expensive, but Candor decided that is was worth the cost.
 
