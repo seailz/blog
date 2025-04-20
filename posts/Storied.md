@@ -2,7 +2,7 @@
 title: The power of ChatGPT deep research and why I built an email-journaling app
 slug: storied
 date: 2025-04-20
-image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/storied.png
+image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/storied/storied.png
 subtitle: "In this post I cover the power of ChatGPT deep research and why I built a journaling app called Storied. I also cover the future of AI and how it will impact our lives, particularly in the realm of software engineering and SaaS."
 ---
 This is going to be a bit of a scramble of a post, but here goes...
