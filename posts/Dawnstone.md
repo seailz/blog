@@ -2,7 +2,7 @@
 title: Working with Candor Studios to revolutionize the way we order services
 slug: candorstudios-dawnstone
 date: 2025-02-20
-image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/dawnstone.png
+image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/dawnstone/anewera.png
 subtitle: "Over the last year, I've been working with Candor Studios to revolutionize the way we order services. This is a brief overview of the project and the impact it's projected to have on the industry."
 ---
 For the past year, I've been collaborating with Candor Studios on a groundbreaking initiative—Project Dawnstone. Our goal? To revolutionize how services are ordered, making the process more accessible and seamless. With this platform, we're getting rid of Discord's UI limitations
@@ -75,6 +75,8 @@ Combined with a comprehensive marketing strategy, this could lead to a significa
 The Candor Hub platform is currently in private beta, with a public release planned within the next month. If you're interested in learning more about the platform or would like to
 use it for your own freelancing needs, it'll be available soon at [Candor Studios's website](https://candorstudios.net) (it is the website!). For updates, join [Candor's Discord server](https://discord.gg/fpKQS4dq7u) where an announcement will be made when it goes live. I'm excited to see the impact this has on the industry as a whole,
 and I'm proud to have been a part of it!
+
+**Update, 16th March 2025:** A few days ago, Candor Studios completed their initial launch of Candor Hub. The launch was an amazing success, with 100+ signups in the first few days. Although there were a couple bugs, as there would be with any launch, we had no major problems as most of these were tracked down in the comphrensive testing phase of Project Dawnstone. To check out Candor Hub now, head to [Candor Studios's website](https://candorstudios.net).
 
 If you'd like to contact me about this project or any other work, feel free to reach out to me on [my contact page](https://slz.lol/contact).
 
