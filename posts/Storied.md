@@ -75,4 +75,5 @@ I think the future of AI is going to be really interesting. I think we're going 
 While this will undoubtdely have wide impacts for the entire world, I think it's particularly prevalent in the software engineering and SaaS space. Idea generation might be an easy task for you, but that's not the only thing that AI can do.
 If you struggle with anything from writing code to debugging to market research, tools like Deep Research really are the future. We'll see where it goes.
 
-For now, please check out [Storied](https://storied.email) and let me know what you think! I really appreciate any feedback you have so do feel free to [contact me](https://slz.lol/contact). I'm always happy to chat!
+For now, please check out [Storied](https://storied.email) and let me know what you think! If you want a free discount for Storied Pro, drop me an email at [george@slz.lol](mailto:george@slz.lol) or send me a DM on Discord (seailz) and I'll get you a code.
+I really appreciate any feedback you have so do feel free to [contact me](https://slz.lol/contact). I'm always happy to chat!
