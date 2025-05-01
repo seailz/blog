@@ -2,7 +2,7 @@
 title: Inspiration, Design, and Implementation
 slug: uiblend
 date: 2025-05-01
-image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/uiblend/storiedblend.jpeg
+image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/uiblend/nebulaui.jpeg
 subtitle: "
     I recently came across a beautiful UI feature that made me want to learn more: blending images with the background and the text. In this post I cover my process of inspiration, design, and implementation
     and how I approach build UIs that are both beautiful and functional.
