@@ -10,7 +10,9 @@ How I managed to build a real-time, 3D, convincing fake window that responds to 
 
 On Instagram or TikTok recently, you've probably seen those videos by brands advertising their projectors showing beautiful "fake windows" on your wall.
 
-![Instagram](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/videos/instagram.mov)
+<video controls>
+  <source src="https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/videos/instagram.mov" type="video/mp4">
+</video>
 
 What immediately came to mind when I saw one of these is: "But it's not going to react to how you move, it's just going to look 2D". I felt it'd kill the illusion, and since I happen to know how to code... I decided to spend a week trying to make it three-dimensional. Not only would it be a great way to learn more about 3D design, it'd also just be really cool!
 
@@ -68,7 +70,9 @@ People tend not to upload their complex 3D environments for free, which means it
 
 After setting it up for the first time, calibrating everything properly, and loading up the first 3D environment, it just worked. The illusion is a little weaker in person — two eyes mean you don’t get the exact depth effect — but on video it looks incredibly convincing.
 
-![Showing off Window²](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/videos/working.mp4)
+<video controls>
+  <source src="https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/videos/working.mp4" type="video/mp4">
+</video>
 
 # What's next?
 
