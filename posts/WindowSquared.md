@@ -2,7 +2,7 @@
 title: Building a real-time portal on my wall
 slug: window-squared
 date: 2025-12-11
-image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/discordjar/windowsquaredbanner.png
+image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/windowsquaredbanner.png
 subtitle: "
 How I managed to build a real-time, 3D, convincing fake window that responds to how you move using a projector, head tracking, and Unreal Engine. It ended up teaching me far more about graphics, tracking, and perception than I expected.
 "
