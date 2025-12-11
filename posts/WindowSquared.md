@@ -51,7 +51,8 @@ After some research, I discovered that I was looking to achieve off-axis project
 
 Unreal Engine happens to have a tool called [nDisplay](https://dev.epicgames.com/documentation/en-us/unreal-engine/projection-policies-in-ndisplay-in-unreal-engine) which is able to achieve this automatically. As mentioned earlier, this is the same system that Star Wars uses. It's mostly intended for in camera VFX and LED screens, but there is no reason it can't be used for a projector as well. After even more tinkering and work, I finally managed to get an initial working version in a basic 3D environment.
 
-[show initial test images]
+![nDisplay Config](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/tests/ndisplayconfig.png)
+![Python](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/tests/python.JPEG)
 
 Latency and FPS was a small concern, but having a relatively small pipeline from VR -> Projector helped, and everything was done wired rather than wirelessly. With a bit of optimization, it worked just fine.
 
