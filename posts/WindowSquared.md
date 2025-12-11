@@ -59,10 +59,10 @@ Now's the fun part: I needed scenes that weren't just 3 boxes laid around 😂
 
 People tend not to upload their complex 3D environments for free, which means it was up to me to make some myself. Having barely touched Unreal in the last 5 years and being completely new to modelling, this took a bit of time to get used to, but it was good fun!
 
-![Autumn Forest](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi1.png)
-![Pink River](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi2.png)
-![Desert Aurora](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi3.png)
-![Sci Fi](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi4.png)
+![Autumn Forest](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi1.jpg)
+![Pink River](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi2.jpg)
+![Desert Aurora](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi3.jpg)
+![Sci Fi](https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/windowsquared/scenes/wsi4.jpg)
 
 # It works
 
