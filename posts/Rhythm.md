@@ -4,7 +4,7 @@ slug: stop-using-ai-as-chatbot
 date: 2025-12-28
 image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/rhythm/slz-rhythm.png
 subtitle: "
-    How Rhythm, the smart calendar that schedules tasks for you, uses AI in a way that feels natural, and traditional code where it works better. 
+    How Rhythm, the smart calendar that schedules tasks for you, uses AI in a way that feels natural, and traditional code where it works better. Here's what building Rhythm taught me about modern product design. 
 "
 ---
 
