@@ -18,7 +18,6 @@ I remember a few years ago asking about this in a technical Discord. The advice 
 # Discovery
 
 Despite the pessimism, I decided to give it another go. After a ton of research with very undocumented features, I discovered that [Minecraft resource packs](https://minecraft.wiki/w/Resource_pack) can embed custom shaders that modify the game's rendering. This is notable because vanilla servers can force clients to use resource packs, meaning every connecting player automatically gets those shaders without installing anything.
-.
 
 While this sounds promising, it’s mostly unhelpful in practice because shaders are static files. We can't dynamically control them from the server - so you can only really have two states: the effect is on for the entire game, or it's off for the entire game. Not very useful.
 
