@@ -1,7 +1,7 @@
 ---
 title: Making visual effects in Minecraft without mods
 slug: flaps
-date: 2026-11-01
+date: 2026-01-11
 image: https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/flaps/pig.png
 subtitle: "
 When trying to recreate a specific effect, I discovered a way to control visual shader effects on Minecraft clients from the server side using only resource packs and packets. 
