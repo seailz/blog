@@ -33,8 +33,8 @@ We can now embed data and communicate it to shaders by sending packets to modify
 
 With this discovery, the biggest problem was picking which shaders to override. There are two types of shaders in Minecraft:
 <ul>
-    <li>**Core shaders**, which handle the majority of Minecraft's rendering (blocks, entities, the sky, etc)</li>
-    <li>**Post-process shaders**, which handle a few specific scenarios (spectating a creeper or spider, or when using the *Fabulous!* graphics setting)</li>
+    <li><b>Core shaders</b>, which handle the majority of Minecraft's rendering (blocks, entities, the sky, etc)</li>
+    <li><b>Post-process shaders</b>, which handle a few specific scenarios (spectating a creeper or spider, or when using the *Fabulous!* graphics setting)</li>
 </ul>
 
 Post-process shaders are easier to modify, actually supported by Mojang, and won't break with updates, but they are very limited in scope due to the conditions required for them to be active. 
