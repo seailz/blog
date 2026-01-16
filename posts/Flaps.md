@@ -73,3 +73,8 @@ All managed by the server, without any mods. For example, here's a camera shake 
 As a Minecraft developer who's been working with the game for upwards of 6 years now, this discovery really blew my mind. It's not even something you'd consider to be possible, but full, dynamic, visual effects are now an option for server owners in fully vanilla Minecraft.
 
 If you want to check out the project, have a look at the [GitHub repository here](https://github.com/seailz/Flaps). I'm currently working on turning it into a library so that other developers can implement their own effects easily. Feel free to reach out if you have any questions or ideas!
+
+**Update, 16th Jan 2026:** FLaps is now available as a library for developers to use in their own plugins! You can find the docs [here](https://github.com/seailz/Flaps/wiki) along with an example plugin achieving the roll effect I originally set out to create.
+<video controls>
+  <source src="https://github.com/user-attachments/assets/0d0d9f63-1c1d-4267-a8c0-44cce7879b1e" type="video/mp4">
+</video>
