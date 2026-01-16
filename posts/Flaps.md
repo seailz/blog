@@ -33,8 +33,8 @@ We can now embed data and communicate it to shaders by sending packets to modify
 
 With this discovery, the biggest problem was picking which shaders to override. There are two types of shaders in Minecraft:
 <ul>
-    <li>**Core shaders**, which handle the majority of Minecraft's rendering (blocks, entities, the sky, etc)</li>
-    <li>**Post-process shaders**, which handle a few specific scenarios (spectating a creeper or spider, or when using the *Fabulous!* graphics setting)</li>
+    <li><b>Core shaders</b>, which handle the majority of Minecraft's rendering (blocks, entities, the sky, etc)</li>
+    <li><b>Post-process shaders</b>, which handle a few specific scenarios (spectating a creeper or spider, or when using the *Fabulous!* graphics setting)</li>
 </ul>
 
 Post-process shaders are easier to modify, actually supported by Mojang, and won't break with updates, but they are very limited in scope due to the conditions required for them to be active. 
@@ -73,8 +73,3 @@ All managed by the server, without any mods. For example, here's a camera shake 
 As a Minecraft developer who's been working with the game for upwards of 6 years now, this discovery really blew my mind. It's not even something you'd consider to be possible, but full, dynamic, visual effects are now an option for server owners in fully vanilla Minecraft.
 
 If you want to check out the project, have a look at the [GitHub repository here](https://github.com/seailz/Flaps). I'm currently working on turning it into a library so that other developers can implement their own effects easily. Feel free to reach out if you have any questions or ideas!
-
-**Update, 16th Jan 2026:** FLaps is now available as a library for developers to use in their own plugins! You can find the docs [here](https://github.com/seailz/Flaps/wiki) along with an example plugin achieving the roll effect I originally set out to create.
-<video controls>
-  <source src="https://github.com/user-attachments/assets/0d0d9f63-1c1d-4267-a8c0-44cce7879b1e" type="video/mp4">
-</video>
