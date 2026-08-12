@@ -23,7 +23,7 @@ This is the first step to achieving the Elytra roll effect. If we modify the cor
 
 ## The problem with statelessness
 
-Minecraft's shaders provide no conventional persistent state between frames. This was the largest issue I ran into when trying to implement the effect. While we can modify GameTime, we can only do so from the server, and we can only do so at 20hz (even putting aside issues like network latency). The server could tell the shader where the camera should be 20 times per second, but the game might render 60, 120, or several hundred frames per second. The shader had no memory of the previous update, so it had no way to smoothly fill in the frames between them.
+Minecraft's shaders provide no conventional persistent state between frames. This was the largest issue I ran into when trying to implement the effect. While we can modify GameTime, we can only do so from the server, and we can only do so at 20 Hz (even putting aside issues like network latency). The server could tell the shader where the camera should be 20 times per second, but the game might render 60, 120, or several hundred frames per second. The shader had no memory of the previous update, so it had no way to smoothly fill in the frames between them.
 
 Other than that, shaders are purely stateless, and exist only to render the current frame. So while we can render the camera, it looks poor and uninterpolated.
 
@@ -68,7 +68,8 @@ However, in Minecraft 26.2, Mojang added a new feature called [Timelines](https:
 and the lightmap can simply pass that on to the world shaders which can interpolate the camera position and rotation. The lightmap is just acting as storage for keyframes, and the world shaders are interpolating between them - and they can do this all without any state.
 
 That was the breakthrough: the server no longer needed to drive the camera frame-by-frame. It just needed to provide keyframes.
-## Using our new-found storage
+
+## Using our newfound storage
 
 The key detail here is that we can do far more with this than just a simple Elytra roll effect. We can now control the camera in full 3D space, with XYZ positioning, roll, pitch, yaw, and FOV control. This is unheard of in Minecraft Java Edition - I was told by the community that this was impossible, and no one thought of implementing these specific features in this way.
 
@@ -76,4 +77,4 @@ Java Edition normally gives servers extremely limited control over a player's vi
 
 But now, it's possible. The abilities this opens for cinematic adventures or experiences in Minecraft are huge, and I can't wait to see what people do with it.
 
-I've packaged this all into a plugin, with a full in game editor and a simple API for developers to use. You can find [Ultimate Camera on BuiltByBit](https://builtbybit.com/resources/ultimate-camera-advanced-cutscenes.116877/) to try it out for yourself.
+I've packaged this all into a plugin, with a full in-game editor and a simple API for developers to use. You can find [Ultimate Camera on BuiltByBit](https://builtbybit.com/resources/ultimate-camera-advanced-cutscenes.116877/) to try it out for yourself.
