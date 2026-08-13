@@ -11,7 +11,7 @@ This is the story of how, over seven months, I built a cinematic camera system i
 Seven months ago, I stumbled across a problem. I was looking to create a niche effect found in the Legacy console editions of Minecraft: the [roll effect when gliding with an Elytra](https://www.youtube.com/watch?v=4TVhD3RRQrc) in modern Java Minecraft. Unfortunately, without using client-side mods, pretty much everyone agreed that this effect was simply impossible to achieve. This is no longer the case.
 
 <video controls>
-  <source src="https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/ultimatecamera/videos/uc0.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/ultimatecamera/uc0.mp4" type="video/mp4">
 </video>
 
 ## The initial solution and GameTime
@@ -28,7 +28,7 @@ Minecraft's shaders provide no conventional persistent state between frames. Thi
 Other than that, shaders are purely stateless, and exist only to render the current frame. So while we can render the camera, it looks poor and uninterpolated.
 
 <video controls>
-  <source src="https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/ultimatecamera/videos/uc1.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/seailz/blog/refs/heads/main/images/ultimatecamera/uc1.mp4" type="video/mp4">
 </video>
 
 So, how do we get around this?
